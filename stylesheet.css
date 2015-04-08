@@ -1,0 +1,104 @@
+.serverinfo ul {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    padding:0;
+    margin:5px;
+}
+.serverinfo li {
+    display:inline-block;
+}
+.serverinfo p {
+    text-align:center;
+    margin-top:5px;
+}
+.serverinfo img {
+    margin-right:5px;
+    margin-left:5px;
+}
+.server {
+    padding-top:0;
+    width:250px;
+    border:1px solid #999;
+    border-radius:10px;
+    box-shadow:0 5px 13px -10px;
+    position:relative;
+    margin-bottom:20px;
+}
+.serverheader {
+    height:44px;
+    border-top-left-radius:9px;
+    border-top-right-radius:9px;
+    color:white;
+    padding-top:3px;
+    padding-right:3px;
+}
+.ONLINE {
+    background-color:#63ad20;
+}
+.OFFLINE {
+    background-color:#CA3838;
+}
+.serverheader img {
+    display:inline;
+    border-top-left-radius:9px;
+    margin-top:-4px;
+    margin-left:-1px;
+    float:left;
+    max-width:48px;
+}
+.serverheader h3 {
+    vertical-align:top;
+    font-size:12pt;
+    font-family:arial;
+    margin-top:0px;
+    margin-bottom:2px;
+}
+.serverheader input {
+    font-size:8pt;
+    border-radius:5px;
+    border:0;
+    padding-left:6px;
+    background-color:white;
+    color:black;
+    width:160px;
+}
+.serverheader div {
+    width:200px;
+    margin-left:50px;
+}
+.serverheader a {
+    float:right;
+    margin-top: -35px;
+    font-size: 20pt;
+    font-weight: bold;
+    display:none;
+    color:white;
+}
+.serverheader:hover a {
+    display:block;
+}
+.playername {
+    background-color:#222;
+    color:#ddd;
+    position:absolute;
+    padding:3px;
+    border-radius:3px;
+    display:none;
+}
+.serverinfo li:hover .playername {
+    display:block;
+}
+p {
+    margin:0;
+}
+* {
+    font-family:arial;
+}
+br {
+    height:0;
+}
+a {
+    text-decoration:none;
+}
