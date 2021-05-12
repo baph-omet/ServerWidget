@@ -1,3 +1,17 @@
+body {
+    background:black;
+}
+
+.serverinfo {
+    background-color: white;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-top: -5px;
+    height: 35px;
+    padding-top: 5px;
+    vertical-align: middle;
+}
+
 .serverinfo ul {
     display:block;
     margin-left:auto;
@@ -27,7 +41,7 @@
     margin-bottom:20px;
 }
 .serverheader {
-    height:44px;
+    height:50px;
     border-top-left-radius:9px;
     border-top-right-radius:9px;
     color:white;
@@ -95,7 +109,6 @@
     margin:0;
     margin-top:5px;
     padding-bottom:5px;
-    border-bottom:1px solid #aaaaaa;
     border-radius:10px;
 }
 * {
@@ -110,7 +123,7 @@ a {
 .fillbar {
     background:linear-gradient(to right, #93D1D9, #CAF7FC);
     margin-top:-5px;
-    height:27px;
+    height:40px;
     min-width:15px;
     border-bottom-left-radius:10px;
     border-bottom-right-radius:10px;
