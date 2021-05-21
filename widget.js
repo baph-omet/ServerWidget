@@ -84,7 +84,7 @@ function widgetConstructor(serv) {
             '<img src="' + icon + '">' +
             '<div><h3>' + servname + '</h3>' +
             '<input title="Copy and paste into Minecraft!" readonly="true" value="' + address + '" onclick="this.select();" />' +
-            '</div><a href="http://the-minecraft-blog.com/' + servid + '">&#10162;</a>' +
+            '</div><a href="http://the-minecraft-blog.com/' + servid + '" target="_blank">&#10162;</a>' +
             '</div>';
 
         if (online) {
